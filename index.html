@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-
-<html class="light" lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&amp;family=Inter:wght@300;400;500;600;700&amp;family=Epilogue:wght@700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<style>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Element&amp;co — Monolithic Digital &amp; Branding Agency</title>
+    <meta name="description" content="Element&amp;co is a premier high-end digital agency forging monolithic digital experiences through aggressive minimalism, tactical creative strategy, and cutting-edge web design." />
+    <meta name="keywords" content="Element&amp;co, digital agency, branding, web design, creative production, AI design" />
+    <meta property="og:title" content="Element&amp;co — High-End Editorial Agency" />
+    <meta property="og:description" content="We build brands that don't blend in. Monolithic digital presence and high-impact design." />
+    <meta property="og:type" content="website" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,cont ainer-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&amp;family=Inter:wght@300;400;500;600;700&amp;family=Epilogue:wght@700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
         @font-face {
             font-family: 'Berkeley Mono';
             src: url('https://fonts.cdnfonts.com/css/berkeley-mono');
@@ -29,7 +37,7 @@
             box-shadow: 0 0 15px rgba(184, 255, 60, 0.4);
         }
     </style>
-<script id="tailwind-config">
+    <script id="tailwind-config">
         tailwind.config = {
           darkMode: "class",
           theme: {
@@ -100,205 +108,377 @@
     </script>
 </head>
 <body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container overflow-x-hidden">
-<!-- TopNavBar -->
-<nav class="bg-white/80 dark:bg-black/80 backdrop-blur-xl docked full-width top-0 sticky z-50 transition-all duration-300">
-<div class="flex justify-between items-center w-full px-8 py-6 max-w-[1440px] mx-auto">
-<a class="text-2xl font-black text-black dark:text-white flex items-center after:content-[''] after:w-2 after:h-2 after:bg-[#b8ff3c] after:rounded-full after:ml-1 font-['Syne'] uppercase tracking-tighter" href="#">rawframe.</a>
-<div class="hidden md:flex items-center space-x-12">
-<a class="text-black dark:text-white border-b-2 border-[#b8ff3c] pb-1 font-['Syne'] font-bold uppercase tracking-tighter text-sm transition-all duration-300" href="#">Work</a>
-<a class="text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors font-['Syne'] font-bold uppercase tracking-tighter text-sm transition-all duration-300" href="#">Services</a>
-<a class="text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors font-['Syne'] font-bold uppercase tracking-tighter text-sm transition-all duration-300" href="#">Agency</a>
-<a class="text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors font-['Syne'] font-bold uppercase tracking-tighter text-sm transition-all duration-300" href="#">Contact</a>
-</div>
-<button class="bg-[#b8ff3c] text-[#121f00] px-8 py-3 rounded-full font-bold uppercase tracking-widest text-xs hover:scale-105 hover:shadow-[0_0_15px_rgba(184,255,60,0.2)] transition-all duration-300 active:scale-95">
+    <!-- TopNavBar -->
+    <nav class="bg-white/80 dark:bg-black/80 backdrop-blur-xl docked full-width top-0 sticky z-50 transition-all duration-300 border-b border-black/5 dark:border-white/10">
+        <div class="flex justify-between items-center w-full px-8 py-6 max-w-[1440px] mx-auto">
+            <a class="text-2xl font-black text-black dark:text-white flex items-center after:content-[''] after:w-2 after:h-2 after:bg-[#b8ff3c] after:rounded-full after:ml-1 font-['Syne'] uppercase tracking-tighter" href="#">Element&amp;co.</a>
+            <div class="hidden md:flex items-center space-x-12">
+                <a class="text-black dark:text-white border-b-2 border-[#b8ff3c] pb-1 font-['Syne'] font-bold uppercase tracking-tighter text-sm transition-all duration-300" href="#work">Work</a>
+                <a class="text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors font-['Syne'] font-bold uppercase tracking-tighter text-sm transition-all duration-300" href="#services">Services</a>
+                <a class="text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors font-['Syne'] font-bold uppercase tracking-tighter text-sm transition-all duration-300" href="#agency">Agency</a>
+                <a class="text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors font-['Syne'] font-bold uppercase tracking-tighter text-sm transition-all duration-300" href="#contact">Contact</a>
+            </div>
+            <a href="#contact" class="bg-[#b8ff3c] text-[#121f00] px-8 py-3 rounded-full font-bold uppercase tracking-widest text-xs hover:scale-105 hover:shadow-[0_0_15px_rgba(184,255,60,0.2)] transition-all duration-300 active:scale-95 inline-block text-center">
                 Start a project
-            </button>
-</div>
-</nav>
-<main>
-<!-- Hero Section -->
-<section class="relative min-h-[921px] flex flex-col justify-center px-8 md:px-16 overflow-hidden">
-<div class="absolute inset-0 grain-texture pointer-events-none"></div>
-<div class="absolute inset-0 bg-gradient-to-br from-surface to-surface-container-low -z-10"></div>
-<div class="max-w-[1440px] mx-auto w-full relative z-10">
-<div class="mb-8">
-<span class="mono-label text-sm uppercase tracking-[0.3em] text-secondary opacity-60">High-End Editorial Agency</span>
-</div>
-<h1 class="font-headline font-extrabold text-[clamp(3.5rem,10vw,8rem)] leading-[0.9] tracking-tighter text-black max-w-[1200px]">
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="agency" class="relative min-h-[921px] flex flex-col justify-center px-8 md:px-16 overflow-hidden">
+            <div class="absolute inset-0 grain-texture pointer-events-none"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-surface to-surface-container-low -z-10"></div>
+            <div class="max-w-[1440px] mx-auto w-full relative z-10">
+                <div class="mb-8">
+                    <span class="mono-label text-sm uppercase tracking-[0.3em] text-secondary opacity-60">High-End Editorial Agency</span>
+                </div>
+                <h1 class="font-headline font-extrabold text-[clamp(3.5rem,10vw,8rem)] leading-[0.9] tracking-tighter text-black max-w-[1200px]">
                     WE BUILD BRANDS THAT <span class="text-primary italic">DON'T</span> BLEND IN.
                 </h1>
-<div class="mt-16 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
-<p class="text-2xl md:text-3xl font-light text-secondary max-w-2xl leading-relaxed">
+                <div class="mt-16 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+                    <p class="text-2xl md:text-3xl font-light text-secondary max-w-2xl leading-relaxed">
                         Forging monolithic digital experiences through aggressive minimalism and tactical creative strategy.
                     </p>
-<div class="flex items-center gap-6">
-<button class="group relative flex items-center justify-center w-24 h-24 bg-black text-white rounded-full hover:scale-110 transition-transform duration-500">
-<span class="material-symbols-outlined text-4xl">arrow_downward</span>
-<div class="absolute -inset-2 border border-black/10 rounded-full group-hover:border-primary-container/30 transition-colors"></div>
-</button>
-</div>
-</div>
-</div>
-</section>
-<!-- Services Section -->
-<section class="py-32 px-8 md:px-16 bg-surface-container-lowest">
-<div class="max-w-[1440px] mx-auto">
-<div class="flex flex-col md:flex-row md:items-end justify-between mb-24 gap-8">
-<div class="max-w-2xl">
-<span class="mono-label text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Capabilities</span>
-<h2 class="font-headline font-bold text-6xl md:text-7xl tracking-tighter text-black leading-none">THE CORE<br/>STACK.</h2>
-</div>
-<p class="text-xl text-secondary max-w-sm">We specialize in three pillars of modern digital evolution, optimized for performance and scale.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-<!-- Service Card 1 -->
-<div class="group relative p-10 rounded-lg bg-surface-container-low transition-all duration-500 hover:bg-white hover:shadow-[0_0_20px_rgba(184,255,60,0.15)] overflow-hidden">
-<div class="absolute top-0 right-0 p-8 text-black opacity-10 group-hover:opacity-100 transition-opacity">
-<span class="material-symbols-outlined text-6xl" data-weight="fill">bolt</span>
-</div>
-<div class="relative z-10">
-<span class="mono-label text-xs font-bold text-secondary mb-12 block">01 / REVOLUTION</span>
-<h3 class="font-headline font-bold text-4xl mb-6 text-black">AI-Powered Design</h3>
-<p class="text-secondary leading-relaxed mb-8 text-lg">Leveraging advanced neural networks to generate unique visual assets and predictive user flows that outpace the market.</p>
-<div class="w-12 h-[2px] bg-black group-hover:w-full group-hover:bg-[#b8ff3c] transition-all duration-700"></div>
-</div>
-</div>
-<!-- Service Card 2 -->
-<div class="group relative p-10 rounded-lg bg-surface-container-low transition-all duration-500 hover:bg-white hover:shadow-[0_0_20px_rgba(184,255,60,0.15)] overflow-hidden border-2 border-transparent hover:border-[#b8ff3c]/20">
-<div class="absolute top-0 right-0 p-8 text-black opacity-10 group-hover:opacity-100 transition-opacity">
-<span class="material-symbols-outlined text-6xl" data-weight="fill">language</span>
-</div>
-<div class="relative z-10">
-<span class="mono-label text-xs font-bold text-secondary mb-12 block">02 / STRUCTURE</span>
-<h3 class="font-headline font-bold text-4xl mb-6 text-black">Web Design</h3>
-<p class="text-secondary leading-relaxed mb-8 text-lg">Architecting high-conversion digital ecosystems that balance brutalist aesthetics with seamless performance.</p>
-<div class="w-12 h-[2px] bg-black group-hover:w-full group-hover:bg-[#b8ff3c] transition-all duration-700"></div>
-</div>
-</div>
-<!-- Service Card 3 -->
-<div class="group relative p-10 rounded-lg bg-surface-container-low transition-all duration-500 hover:bg-white hover:shadow-[0_0_20px_rgba(184,255,60,0.15)] overflow-hidden">
-<div class="absolute top-0 right-0 p-8 text-black opacity-10 group-hover:opacity-100 transition-opacity">
-<span class="material-symbols-outlined text-6xl" data-weight="fill">movie</span>
-</div>
-<div class="relative z-10">
-<span class="mono-label text-xs font-bold text-secondary mb-12 block">03 / NARRATIVE</span>
-<h3 class="font-headline font-bold text-4xl mb-6 text-black">Creative Production</h3>
-<p class="text-secondary leading-relaxed mb-8 text-lg">High-end editorial content creation that positions your brand as a market authority and cultural leader.</p>
-<div class="w-12 h-[2px] bg-black group-hover:w-full group-hover:bg-[#b8ff3c] transition-all duration-700"></div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Portfolio Section (Before/After) -->
-<section class="py-32 px-8 md:px-16 bg-surface">
-<div class="max-w-[1440px] mx-auto">
-<div class="mb-24 flex items-center justify-between">
-<h2 class="font-headline font-bold text-6xl md:text-8xl tracking-tighter text-black uppercase">Selected<br/>Works.</h2>
-<div class="hidden md:block">
-<span class="mono-label text-sm uppercase border border-black/10 px-6 py-3 rounded-full">Viewing Case Studies: 02</span>
-</div>
-</div>
-<div class="grid grid-cols-1 gap-40">
-<!-- Case Study 1: Oreva Spices -->
-<div class="relative group">
-<div class="flex flex-col md:flex-row gap-12 items-start">
-<div class="w-full md:w-1/3 order-2 md:order-1">
-<span class="mono-label text-[#b8ff3c] font-black tracking-widest text-xs uppercase bg-black px-4 py-2 rounded mb-6 inline-block">Featured Branding</span>
-<h3 class="font-headline font-bold text-5xl mb-6 text-black">Oreva Spices</h3>
-<p class="text-xl text-secondary leading-relaxed mb-10">From a traditional heritage market to a premium global DTC brand. We rebuilt their identity around geometric simplicity and vibrant culinary storytelling.</p>
-<button class="flex items-center gap-4 text-black font-bold uppercase tracking-widest group">
-                                    View Project 
+                    <div class="flex items-center gap-6">
+                        <a href="#services" class="group relative flex items-center justify-center w-24 h-24 bg-black text-white rounded-full hover:scale-110 transition-transform duration-500" aria-label="Scroll to services">
+                            <span class="material-symbols-outlined text-4xl">arrow_downward</span>
+                            <div class="absolute -inset-2 border border-black/10 rounded-full group-hover:border-primary-container/30 transition-colors"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-32 px-8 md:px-16 bg-surface-container-lowest">
+            <div class="max-w-[1440px] mx-auto">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-24 gap-8">
+                    <div class="max-w-2xl">
+                        <span class="mono-label text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Capabilities</span>
+                        <h2 class="font-headline font-bold text-6xl md:text-7xl tracking-tighter text-black leading-none">THE CORE<br/>STACK.</h2>
+                    </div>
+                    <p class="text-xl text-secondary max-w-sm">We specialize in three pillars of modern digital evolution, optimized for performance and scale.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Service Card 1 -->
+                    <div class="group relative p-10 rounded-lg bg-surface-container-low transition-all duration-500 hover:bg-white hover:shadow-[0_0_20px_rgba(184,255,60,0.15)] overflow-hidden">
+                        <div class="absolute top-0 right-0 p-8 text-black opacity-10 group-hover:opacity-100 transition-opacity">
+                            <span class="material-symbols-outlined text-6xl" data-weight="fill">bolt</span>
+                        </div>
+                        <div class="relative z-10">
+                            <span class="mono-label text-xs font-bold text-secondary mb-12 block">01 / REVOLUTION</span>
+                            <h3 class="font-headline font-bold text-4xl mb-6 text-black">AI-Powered Design</h3>
+                            <p class="text-secondary leading-relaxed mb-8 text-lg">Leveraging advanced neural networks to generate unique visual assets and predictive user flows that outpace the market.</p>
+                            <div class="w-12 h-[2px] bg-black group-hover:w-full group-hover:bg-[#b8ff3c] transition-all duration-700"></div>
+                        </div>
+                    </div>
+                    <!-- Service Card 2 -->
+                    <div class="group relative p-10 rounded-lg bg-surface-container-low transition-all duration-500 hover:bg-white hover:shadow-[0_0_20px_rgba(184,255,60,0.15)] overflow-hidden border-2 border-transparent hover:border-[#b8ff3c]/20">
+                        <div class="absolute top-0 right-0 p-8 text-black opacity-10 group-hover:opacity-100 transition-opacity">
+                            <span class="material-symbols-outlined text-6xl" data-weight="fill">language</span>
+                        </div>
+                        <div class="relative z-10">
+                            <span class="mono-label text-xs font-bold text-secondary mb-12 block">02 / STRUCTURE</span>
+                            <h3 class="font-headline font-bold text-4xl mb-6 text-black">Web Design</h3>
+                            <p class="text-secondary leading-relaxed mb-8 text-lg">Architecting high-conversion digital ecosystems that balance brutalist aesthetics with seamless performance.</p>
+                            <div class="w-12 h-[2px] bg-black group-hover:w-full group-hover:bg-[#b8ff3c] transition-all duration-700"></div>
+                        </div>
+                    </div>
+                    <!-- Service Card 3 -->
+                    <div class="group relative p-10 rounded-lg bg-surface-container-low transition-all duration-500 hover:bg-white hover:shadow-[0_0_20px_rgba(184,255,60,0.15)] overflow-hidden">
+                        <div class="absolute top-0 right-0 p-8 text-black opacity-10 group-hover:opacity-100 transition-opacity">
+                            <span class="material-symbols-outlined text-6xl" data-weight="fill">movie</span>
+                        </div>
+                        <div class="relative z-10">
+                            <span class="mono-label text-xs font-bold text-secondary mb-12 block">03 / NARRATIVE</span>
+                            <h3 class="font-headline font-bold text-4xl mb-6 text-black">Creative Production</h3>
+                            <p class="text-secondary leading-relaxed mb-8 text-lg">High-end editorial content creation that positions your brand as a market authority and cultural leader.</p>
+                            <div class="w-12 h-[2px] bg-black group-hover:w-full group-hover:bg-[#b8ff3c] transition-all duration-700"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section (Before/After) -->
+        <section id="work" class="py-32 px-8 md:px-16 bg-surface">
+            <div class="max-w-[1440px] mx-auto">
+                <div class="mb-24 flex items-center justify-between">
+                    <h2 class="font-headline font-bold text-6xl md:text-8xl tracking-tighter text-black uppercase">Selected<br/>Works.</h2>
+                    <div class="hidden md:block">
+                        <span class="mono-label text-sm uppercase border border-black/10 px-6 py-3 rounded-full">Viewing Case Studies: 02</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 gap-40">
+                    <!-- Case Study 1: Oreva Spices -->
+                    <div class="relative group">
+                        <div class="flex flex-col md:flex-row gap-12 items-start">
+                            <div class="w-full md:w-1/3 order-2 md:order-1">
+                                <span class="mono-label text-[#b8ff3c] font-black tracking-widest text-xs uppercase bg-black px-4 py-2 rounded mb-6 inline-block">Featured Branding</span>
+                                <h3 class="font-headline font-bold text-5xl mb-6 text-black">Oreva Spices</h3>
+                                <p class="text-xl text-secondary leading-relaxed mb-10">From a traditional heritage market to a premium global DTC brand. We rebuilt their identity around geometric simplicity and vibrant culinary storytelling.</p>
+                                <a href="#contact" class="inline-flex items-center gap-4 text-black font-bold uppercase tracking-widest group">
+                                    Start Similar Project 
                                     <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform">arrow_forward</span>
-</button>
-</div>
-<div class="w-full md:w-2/3 relative h-[600px] rounded-xl overflow-hidden shadow-2xl order-1 md:order-2">
-<div class="absolute inset-0 bg-black">
-<img alt="Oreva Spices After Branding" class="w-full h-full object-cover" data-alt="vibrant modern spice packaging with geometric patterns and bold typography on a clean minimalist kitchen counter with soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTh2fT--_NzxJoH-ZjpfDipBFUbRkhoGfd4mKqdlvrTs7AtTCoX9ScGxJ1styISqqCcJoh9jxBkOiCiCNzOsB59dWGDuQ_aqUcDzrAX2sKFSGl5FzKbIASqprc_vpcqhhBImzMePWdaHS46vtRuqH85fTp4wpxMbNFUX7ziq__VCM5EWUbaqr8rpm38uSPvFRXHZUZOQ7DwS2p7NKePBvVggZN08OdQI7ETDXaVZ8SnvRWnpKShVtk8scdft0P79tP1q5hPwz-rXY"/>
-</div>
-<div class="absolute inset-0 overflow-hidden w-1/2 border-r-4 border-white/20">
-<img alt="Oreva Spices Before Branding" class="w-full h-full object-cover grayscale opacity-80" data-alt="traditional cluttered spice packaging with multiple fonts and colors in a dim grocery store aisle setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRjY4ntqTGsVWoAdbjkF5RK4RNoA5-_zTv7Fg83J2ZIpsLE6NTr2Ev7EHmiIosHOOxrcTcXrSbDj1DQSySQuJPDxRynVPp9_Ox45rbIBeVh-ZqodOPm8OMWoQfOJYNNQBWrPMZWfsQYoswsBMFYisaKTCHaeZjrcsJIaAQeme6zq6eCuQU281xLjVje9yRjqOYU2Cc2nWTQNgLOmALU_wpegmqoxgJ9vm3kBgFw3N2M4rsHbX_xv2c25OCX5_loJdLM2nCtX9IGKk"/>
-</div>
-<div class="absolute bottom-10 left-10 z-20 flex gap-4">
-<span class="mono-label text-xs bg-black text-white px-4 py-2 rounded-full uppercase">Before</span>
-<span class="mono-label text-xs bg-primary-container text-black px-4 py-2 rounded-full uppercase font-bold">After</span>
-</div>
-</div>
-</div>
-</div>
-<!-- Case Study 2: Nexgen SaaS -->
-<div class="relative group">
-<div class="flex flex-col md:flex-row gap-12 items-start">
-<div class="w-full md:w-2/3 relative h-[600px] rounded-xl overflow-hidden shadow-2xl">
-<img alt="Nexgen SaaS Redesign Comparison" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxRhahfeHOdRODCA-lsEmUJY7ljPRpc9Fp0xRsRfaFz6sz-avCUncGU8_Omxl3rxuEZrCBuurRzSXDCv4gIvQ-O2pyVeGTOpXD_fbHLexsAqF9X2e8TbBngsMrJseiMiECBGkMKwPg4L1XLMANS6g7xZGgnyfuGep_cRBEG2jTML2PRaAk77fIKF4wiUTHtY6LN-ssyaIDUaR1q_IaVQbnRWqF4XW9MCQYwX9_hEWn5k58KSFGU-b6-zTyebmYrvsrY3IvwPAm75A"/>
-</div>
-<div class="w-full md:w-1/3">
-<span class="mono-label text-[#b8ff3c] font-black tracking-widest text-xs uppercase bg-black px-4 py-2 rounded mb-6 inline-block">Product Design</span>
-<h3 class="font-headline font-bold text-5xl mb-6 text-black">Nexgen SaaS</h3>
-<p class="text-xl text-secondary leading-relaxed mb-10">Transforming complex enterprise infrastructure into a fluid, user-centric dashboard that emphasizes speed and clarity.</p>
-<button class="flex items-center gap-4 text-black font-bold uppercase tracking-widest group">
-                                    View Project 
+                                </a>
+                            </div>
+                            <div class="w-full md:w-2/3 relative h-[600px] rounded-xl overflow-hidden shadow-2xl order-1 md:order-2">
+                                <div class="absolute inset-0 bg-black">
+                                    <img alt="Oreva Spices After Branding" class="w-full h-full object-cover" data-alt="vibrant modern spice packaging with geometric patterns and bold typography on a clean minimalist kitchen counter with soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTh2fT--_NzxJoH-ZjpfDipBFUbRkhoGfd4mKqdlvrTs7AtTCoX9ScGxJ1styISqqCcJoh9jxBkOiCiCNzOsB59dWGDuQ_aqUcDzrAX2sKFSGl5FzKbIASqprc_vpcqhhBImzMePWdaHS46vtRuqH85fTp4wpxMbNFUX7ziq__VCM5EWUbaqr8rpm38uSPvFRXHZUZOQ7DwS2p7NKePBvVggZN08OdQI7ETDXaVZ8SnvRWnpKShVtk8scdft0P79tP1q5hPwz-rXY"/>
+                                </div>
+                                <div class="absolute inset-0 overflow-hidden w-1/2 border-r-4 border-white/20">
+                                    <img alt="Oreva Spices Before Branding" class="w-full h-full object-cover grayscale opacity-80" data-alt="traditional cluttered spice packaging with multiple fonts and colors in a dim grocery store aisle setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRjY4ntqTGsVWoAdbjkF5RK4RNoA5-_zTv7Fg83J2ZIpsLE6NTr2Ev7EHmiIosHOOxrcTcXrSbDj1DQSySQuJPDxRynVPp9_Ox45rbIBeVh-ZqodOPm8OMWoQfOJYNNQBWrPMZWfsQYoswsBMFYisaKTCHaeZjrcsJIaAQeme6zq6eCuQU281xLjVje9yRjqOYU2Cc2nWTQNgLOmALU_wpegmqoxgJ9vm3kBgFw3N2M4rsHbX_xv2c25OCX5_loJdLM2nCtX9IGKk"/>
+                                </div>
+                                <div class="absolute bottom-10 left-10 z-20 flex gap-4">
+                                    <span class="mono-label text-xs bg-black text-white px-4 py-2 rounded-full uppercase">Before</span>
+                                    <span class="mono-label text-xs bg-primary-container text-black px-4 py-2 rounded-full uppercase font-bold">After</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Case Study 2: Nexgen SaaS -->
+                    <div class="relative group">
+                        <div class="flex flex-col md:flex-row gap-12 items-start">
+                            <div class="w-full md:w-2/3 relative h-[600px] rounded-xl overflow-hidden shadow-2xl">
+                                <img alt="Nexgen SaaS Redesign Comparison" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxRhahfeHOdRODCA-lsEmUJY7ljPRpc9Fp0xRsRfaFz6sz-avCUncGU8_Omxl3rxuEZrCBuurRzSXDCv4gIvQ-O2pyVeGTOpXD_fbHLexsAqF9X2e8TbBngsMrJseiMiECBGkMKwPg4L1XLMANS6g7xZGgnyfuGep_cRBEG2jTML2PRaAk77fIKF4wiUTHtY6LN-ssyaIDUaR1q_IaVQbnRWqF4XW9MCQYwX9_hEWn5k58KSFGU-b6-zTyebmYrvsrY3IvwPAm75A"/>
+                            </div>
+                            <div class="w-full md:w-1/3">
+                                <span class="mono-label text-[#b8ff3c] font-black tracking-widest text-xs uppercase bg-black px-4 py-2 rounded mb-6 inline-block">Product Design</span>
+                                <h3 class="font-headline font-bold text-5xl mb-6 text-black">Nexgen SaaS</h3>
+                                <p class="text-xl text-secondary leading-relaxed mb-10">Transforming complex enterprise infrastructure into a fluid, user-centric dashboard that emphasizes speed and clarity.</p>
+                                <a href="#contact" class="inline-flex items-center gap-4 text-black font-bold uppercase tracking-widest group">
+                                    Start Similar Project 
                                     <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform">arrow_forward</span>
-</button>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- CTA Section -->
-<section class="py-40 px-8 md:px-16 bg-[#b8ff3c]">
-<div class="max-w-[1440px] mx-auto text-center">
-<h2 class="font-headline font-extrabold text-7xl md:text-9xl tracking-tighter text-black mb-12 uppercase leading-[0.8]">Ready to scale?</h2>
-<p class="text-2xl md:text-3xl text-black font-medium mb-16 max-w-3xl mx-auto">Stop blending into the background. Let's build something monolithic together.</p>
-<div class="flex flex-col md:flex-row items-center justify-center gap-8">
-<button class="bg-black text-white px-12 py-6 rounded-full font-bold uppercase tracking-[0.2em] text-lg hover:scale-105 transition-transform duration-300">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-40 px-8 md:px-16 bg-[#b8ff3c]">
+            <div class="max-w-[1440px] mx-auto text-center">
+                <h2 class="font-headline font-extrabold text-7xl md:text-9xl tracking-tighter text-black mb-12 uppercase leading-[0.8]">Ready to scale?</h2>
+                <p class="text-2xl md:text-3xl text-black font-medium mb-16 max-w-3xl mx-auto">Stop blending into the background. Let's build something monolithic together.</p>
+                <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+                    <a href="#contact" class="bg-black text-white px-12 py-6 rounded-full font-bold uppercase tracking-[0.2em] text-lg hover:scale-105 transition-transform duration-300 inline-block">
                         Start a Project
-                    </button>
-<button class="border-2 border-black text-black px-12 py-6 rounded-full font-bold uppercase tracking-[0.2em] text-lg hover:bg-black hover:text-white transition-all duration-300">
-                        View Pricing
-                    </button>
-</div>
-</div>
-</section>
-</main>
-<!-- Footer -->
-<footer class="bg-[#0a0a0a] dark:bg-[#000000] text-white full-width mt-20">
-<div class="flex flex-col w-full px-8 py-20 max-w-[1440px] mx-auto">
-<div class="flex flex-col md:flex-row justify-between gap-20">
-<div class="max-w-2xl">
-<a class="text-4xl font-black text-[#b8ff3c] font-['Syne'] uppercase tracking-tighter block mb-10" href="#">rawframe.</a>
-<h4 class="font-['Syne'] font-extrabold text-[3.5rem] leading-none mb-10 text-white">Let's create the future of your brand.</h4>
-<p class="text-gray-400 font-medium text-lg max-w-md font-['Inter']">We are a high-end editorial agency dedicated to monolithic digital presence. We don't just design; we curate.</p>
-</div>
-<div class="grid grid-cols-2 md:grid-cols-2 gap-20">
-<div>
-<span class="mono-label text-gray-500 uppercase tracking-widest text-xs mb-8 block">Navigation</span>
-<ul class="space-y-4">
-<li><a class="text-gray-400 font-medium hover:text-[#b8ff3c] transition-colors text-xl font-['Inter']" href="#">Work</a></li>
-<li><a class="text-gray-400 font-medium hover:text-[#b8ff3c] transition-colors text-xl font-['Inter']" href="#">Services</a></li>
-<li><a class="text-gray-400 font-medium hover:text-[#b8ff3c] transition-colors text-xl font-['Inter']" href="#">Agency</a></li>
-<li><a class="text-gray-400 font-medium hover:text-[#b8ff3c] transition-colors text-xl font-['Inter'] text-[#b8ff3c] font-bold" href="#">Contact</a></li>
-</ul>
-</div>
-<div>
-<span class="mono-label text-gray-500 uppercase tracking-widest text-xs mb-8 block">Socials</span>
-<ul class="space-y-4">
-<li><a class="text-gray-400 font-medium hover:text-[#b8ff3c] transition-colors text-xl font-['Inter']" href="#">Instagram</a></li>
-<li><a class="text-gray-400 font-medium hover:text-[#b8ff3c] transition-colors text-xl font-['Inter']" href="#">LinkedIn</a></li>
-<li><a class="text-gray-400 font-medium hover:text-[#b8ff3c] transition-colors text-xl font-['Inter']" href="#">Behance</a></li>
-<li><a class="text-gray-400 font-medium hover:text-[#b8ff3c] transition-colors text-xl font-['Inter']" href="#">Email</a></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="mt-32 pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
-<p class="mono-label text-gray-500 text-xs uppercase tracking-widest">© 2024 rawframe Agency. All rights reserved.</p>
-<div class="flex gap-8">
-<a class="mono-label text-gray-500 text-xs uppercase tracking-widest hover:text-white transition-colors" href="#">Privacy Policy</a>
-<a class="mono-label text-gray-500 text-xs uppercase tracking-widest hover:text-white transition-colors" href="#">Terms of Service</a>
-</div>
-</div>
-</div>
-</footer>
-</body></html>
+                    </a>
+                    <a href="#contact-details" class="border-2 border-black text-black px-12 py-6 rounded-full font-bold uppercase tracking-[0.2em] text-lg hover:bg-black hover:text-white transition-all duration-300 inline-block">
+                        Direct Inquiries
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dedicated Contact Section with Alternative Details -->
+        <section id="contact" class="py-32 px-8 md:px-16 bg-[#0a0a0b] text-white relative overflow-hidden">
+            <div class="absolute inset-0 grain-texture pointer-events-none opacity-5"></div>
+            <div class="max-w-[1440px] mx-auto relative z-10">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
+                    <div class="max-w-2xl">
+                        <span class="mono-label text-[#b8ff3c] font-bold tracking-widest text-sm uppercase mb-4 block">04 / INQUIRIES &amp; CONNECT</span>
+                        <h2 class="font-headline font-bold text-6xl md:text-8xl tracking-tighter text-white leading-none">CONNECT WITH<br/><span class="text-[#b8ff3c]">ELEMENT&amp;CO.</span></h2>
+                    </div>
+                    <p class="text-xl text-gray-400 max-w-md leading-relaxed">
+                        Ready to forge a dominant digital presence? Reach out through our primary agency contact or use our alternative direct lines for expedited response.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                    <!-- Left: Contact Details & Alternative Details -->
+                    <div class="lg:col-span-5 space-y-6" id="contact-details">
+                        <!-- Primary Email -->
+                        <div class="p-8 rounded-2xl bg-[#141517] border border-white/10 hover:border-[#b8ff3c]/40 transition-all duration-300 group">
+                            <div class="flex items-center justify-between mb-4">
+                                <span class="mono-label text-xs uppercase tracking-widest text-[#b8ff3c] font-bold">Primary Contact</span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-[#b8ff3c] animate-pulse"></span>
+                            </div>
+                            <h4 class="font-headline text-2xl font-bold text-white mb-2">General &amp; New Projects</h4>
+                            <a href="mailto:hello@elementandco.com" class="text-xl text-gray-200 hover:text-[#b8ff3c] transition-colors block font-mono">hello@elementandco.com</a>
+                            <p class="text-sm text-gray-500 mt-2">Dedicated intake for client onboarding and project evaluations.</p>
+                        </div>
+
+                        <!-- Alternative Contact Channel -->
+                        <div class="p-8 rounded-2xl bg-[#141517] border border-white/10 hover:border-[#b8ff3c]/40 transition-all duration-300 group">
+                            <div class="flex items-center justify-between mb-4">
+                                <span class="mono-label text-xs uppercase tracking-widest text-white/70 font-bold">Alternative Contact</span>
+                                <span class="material-symbols-outlined text-[#b8ff3c] text-sm">alternate_email</span>
+                            </div>
+                            <h4 class="font-headline text-2xl font-bold text-white mb-2">Direct Partner &amp; Expedited Support</h4>
+                            <div class="space-y-2">
+                                <div class="flex flex-col">
+                                    <span class="text-[11px] text-gray-500 uppercase mono-label">Corporate Alternative:</span>
+                                    <a href="mailto:contact@elementandco.com" class="text-lg text-gray-200 hover:text-[#b8ff3c] transition-colors font-mono">contact@elementandco.com</a>
+                                </div>
+                                <div class="flex flex-col pt-2 border-t border-white/5">
+                                    <span class="text-[11px] text-gray-500 uppercase mono-label">Direct Line / Representative:</span>
+                                    <a href="mailto:vandanashakya1087@gmail.com" class="text-base text-gray-300 hover:text-[#b8ff3c] transition-colors font-mono">vandanashakya1087@gmail.com</a>
+                                </div>
+                            </div>
+                            <p class="text-sm text-gray-500 mt-3">Direct channel for priority communication, executive collaborations, and press inquiries.</p>
+                        </div>
+
+                        <!-- Phone & Alternative Direct Lines -->
+                        <div class="p-8 rounded-2xl bg-[#141517] border border-white/10 hover:border-[#b8ff3c]/40 transition-all duration-300">
+                            <div class="flex items-center justify-between mb-4">
+                                <span class="mono-label text-xs uppercase tracking-widest text-white/70 font-bold">Voice &amp; Direct Lines</span>
+                                <span class="material-symbols-outlined text-[#b8ff3c] text-sm">call</span>
+                            </div>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <span class="text-xs text-gray-500 uppercase mono-label block mb-1">Primary Agency Line</span>
+                                    <a href="tel:+15552348901" class="text-base text-white hover:text-[#b8ff3c] font-mono transition-colors">+1 (555) 234-8901</a>
+                                </div>
+                                <div>
+                                    <span class="text-xs text-gray-500 uppercase mono-label block mb-1">Alternative Direct Line</span>
+                                    <a href="tel:+15558904321" class="text-base text-gray-300 hover:text-[#b8ff3c] font-mono transition-colors">+1 (555) 890-4321</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Global Studios -->
+                        <div class="p-8 rounded-2xl bg-[#141517] border border-white/10 hover:border-[#b8ff3c]/40 transition-all duration-300">
+                            <span class="mono-label text-xs uppercase tracking-widest text-[#b8ff3c] font-bold block mb-4">Locations &amp; Hours</span>
+                            <div class="grid grid-cols-2 gap-4 text-sm text-gray-400">
+                                <div>
+                                    <p class="font-bold text-white mb-1">New York Studio</p>
+                                    <p>450 Lexington Avenue</p>
+                                    <p>New York, NY 10017</p>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-white mb-1">London Studio</p>
+                                    <p>100 Bishopsgate</p>
+                                    <p>London EC2N 4AG</p>
+                                </div>
+                            </div>
+                            <div class="mt-4 pt-4 border-t border-white/5 flex justify-between items-center text-xs text-gray-500 mono-label">
+                                <span>Mon – Fri: 09:00 – 19:00 EST / GMT</span>
+                                <span class="text-[#b8ff3c]">● Operating Globally</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Interactive Project Inquiry Form -->
+                    <div class="lg:col-span-7 bg-[#121315] p-8 md:p-12 rounded-2xl border border-white/10 relative">
+                        <div class="mb-8">
+                            <span class="mono-label text-xs text-[#b8ff3c] uppercase tracking-widest block mb-2 font-bold">Start An Engagement</span>
+                            <h3 class="font-headline font-bold text-3xl md:text-4xl text-white">Tell us about your project vision.</h3>
+                        </div>
+                        
+                        <form id="contactForm" onsubmit="event.preventDefault(); document.getElementById('formSuccess').classList.remove('hidden'); this.reset();" class="space-y-6">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <label class="block text-xs uppercase mono-label text-gray-400 mb-2 font-bold" for="name">Your Name *</label>
+                                    <input id="name" required class="w-full bg-[#1b1c1f] border border-white/10 rounded-xl px-4 py-3.5 text-white placeholder-gray-500 focus:outline-none focus:border-[#b8ff3c] transition-colors" placeholder="e.g. Alex Morgan" type="text" />
+                                </div>
+                                <div>
+                                    <label class="block text-xs uppercase mono-label text-gray-400 mb-2 font-bold" for="email">Primary Email *</label>
+                                    <input id="email" required class="w-full bg-[#1b1c1f] border border-white/10 rounded-xl px-4 py-3.5 text-white placeholder-gray-500 focus:outline-none focus:border-[#b8ff3c] transition-colors" placeholder="alex@company.com" type="email" />
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <label class="block text-xs uppercase mono-label text-gray-400 mb-2 font-bold" for="altContact">Alternative Contact (Phone or Alt Email)</label>
+                                    <input id="altContact" class="w-full bg-[#1b1c1f] border border-white/10 rounded-xl px-4 py-3.5 text-white placeholder-gray-500 focus:outline-none focus:border-[#b8ff3c] transition-colors" placeholder="e.g. +1 (555) 000-0000 or backup email" type="text" />
+                                </div>
+                                <div>
+                                    <label class="block text-xs uppercase mono-label text-gray-400 mb-2 font-bold" for="service">Service Focus</label>
+                                    <select id="service" class="w-full bg-[#1b1c1f] border border-white/10 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-[#b8ff3c] transition-colors">
+                                        <option value="branding">Brand Identity &amp; Creative Strategy</option>
+                                        <option value="web">Web Design &amp; Digital Architecture</option>
+                                        <option value="creative">Creative Production &amp; Editorial</option>
+                                        <option value="ai">AI-Powered Generative Design</option>
+                                        <option value="full">Full Monolithic Rebranding Package</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs uppercase mono-label text-gray-400 mb-2 font-bold" for="message">Project Overview &amp; Goals *</label>
+                                <textarea id="message" required rows="4" class="w-full bg-[#1b1c1f] border border-white/10 rounded-xl p-4 text-white placeholder-gray-500 focus:outline-none focus:border-[#b8ff3c] transition-colors" placeholder="Outline your project scope, timeline, requirements, and objectives..."></textarea>
+                            </div>
+
+                            <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2">
+                                <p class="text-xs text-gray-500 mono-label">Alternative Direct: <a href="mailto:contact@elementandco.com" class="text-gray-300 hover:text-[#b8ff3c]">contact@elementandco.com</a></p>
+                                <button type="submit" class="w-full sm:w-auto bg-[#b8ff3c] text-[#121f00] px-10 py-4 rounded-full font-bold uppercase tracking-widest text-xs hover:scale-105 hover:shadow-[0_0_20px_rgba(184,255,60,0.3)] transition-all duration-300">
+                                    Dispatch Inquiry →
+                                </button>
+                            </div>
+
+                            <div id="formSuccess" class="hidden p-4 rounded-xl bg-[#b8ff3c]/10 border border-[#b8ff3c]/30 text-[#b8ff3c] text-sm mono-label text-center">
+                                ✓ Inquiry dispatched successfully! Our Element&amp;co team will review and reply within 24 hours.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#050505] text-white full-width border-t border-white/10">
+        <div class="flex flex-col w-full px-8 py-20 max-w-[1440px] mx-auto">
+            <div class="flex flex-col md:flex-row justify-between gap-20">
+                <div class="max-w-2xl">
+                    <a class="text-4xl font-black text-[#b8ff3c] font-['Syne'] uppercase tracking-tighter block mb-10" href="#">Element&amp;co.</a>
+                    <h4 class="font-['Syne'] font-extrabold text-[3.5rem] leading-none mb-10 text-white">Let's create the future of your brand.</h4>
+                    <p class="text-gray-400 font-medium text-lg max-w-md font-['Inter']">We are a high-end editorial agency dedicated to monolithic digital presence. We don't just design; we curate.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-12">
+                    <div>
+                        <span class="mono-label text-gray-500 uppercase tracking-widest text-xs mb-8 block">Navigation</span>
+                        <ul class="space-y-4">
+                            <li><a class="text-gray-400 font-medium hover:text-[#b8ff3c] transition-colors text-lg font-['Inter']" href="#work">Work</a></li>
+                            <li><a class="text-gray-400 font-medium hover:text-[#b8ff3c] transition-colors text-lg font-['Inter']" href="#services">Services</a></li>
+                            <li><a class="text-gray-400 font-medium hover:text-[#b8ff3c] transition-colors text-lg font-['Inter']" href="#agency">Agency</a></li>
+                            <li><a class="text-gray-400 font-medium hover:text-[#b8ff3c] transition-colors text-lg font-['Inter'] text-[#b8ff3c] font-bold" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <span class="mono-label text-gray-500 uppercase tracking-widest text-xs mb-8 block">Contact Details</span>
+                        <ul class="space-y-3">
+                            <li>
+                                <span class="text-[10px] text-gray-500 uppercase mono-label block">Primary Email</span>
+                                <a class="text-gray-200 font-mono text-sm hover:text-[#b8ff3c] transition-colors block" href="mailto:hello@elementandco.com">hello@elementandco.com</a>
+                            </li>
+                            <li>
+                                <span class="text-[10px] text-gray-500 uppercase mono-label block">Alternative Email</span>
+                                <a class="text-gray-400 font-mono text-xs hover:text-[#b8ff3c] transition-colors block" href="mailto:contact@elementandco.com">contact@elementandco.com</a>
+                            </li>
+                            <li>
+                                <span class="text-[10px] text-gray-500 uppercase mono-label block">Direct Representative</span>
+                                <a class="text-gray-400 font-mono text-xs hover:text-[#b8ff3c] transition-colors block" href="mailto:vandanashakya1087@gmail.com">vandanashakya1087@gmail.com</a>
+                            </li>
+                            <li>
+                                <span class="text-[10px] text-gray-500 uppercase mono-label block">Primary Phone</span>
+                                <a class="text-gray-400 font-mono text-xs hover:text-[#b8ff3c] transition-colors block" href="tel:+15552348901">+1 (555) 234-8901</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <span class="mono-label text-gray-500 uppercase tracking-widest text-xs mb-8 block">Socials</span>
+                        <ul class="space-y-4">
+                            <li><a class="text-gray-400 font-medium hover:text-[#b8ff3c] transition-colors text-lg font-['Inter']" href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+                            <li><a class="text-gray-400 font-medium hover:text-[#b8ff3c] transition-colors text-lg font-['Inter']" href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+                            <li><a class="text-gray-400 font-medium hover:text-[#b8ff3c] transition-colors text-lg font-['Inter']" href="https://behance.net" target="_blank" rel="noopener">Behance</a></li>
+                            <li><a class="text-gray-400 font-medium hover:text-[#b8ff3c] transition-colors text-lg font-['Inter']" href="mailto:hello@elementandco.com">Email Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-32 pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
+                <p class="mono-label text-gray-500 text-xs uppercase tracking-widest">© 2026 Element&amp;co. All rights reserved.</p>
+                <div class="flex gap-8">
+                    <a class="mono-label text-gray-500 text-xs uppercase tracking-widest hover:text-white transition-colors" href="#">Privacy Policy</a>
+                    <a class="mono-label text-gray-500 text-xs uppercase tracking-widest hover:text-white transition-colors" href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
